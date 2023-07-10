@@ -1,0 +1,29 @@
+INSERT INTO `center_info`(`name`, `address`, `areaid`, `phone`) 
+VALUES 
+("Ali ahmed school", "goran","kh", 0123481),
+("khilgoan ideal scheool", "khilogan tilpapara","kh", 0167481),
+("adorsho school", "goran adorsho ","kh", 0893481),
+("khilgon govt high scheool", "khingoan poliima","kh", 0127881)
+
+
+
+INSERT INTO `center_info`(`name`, `address`, `areaid`, `phone`) 
+VALUES 
+("kakoli school", "Dhanmondi 15","dh", 0129481),
+("Dr mollika college", "Dhanmondi 6/A","Dh", 0167491),
+("Marikuri School", "Dhanmondi 4 ","dh", 0893481),
+("lalmaria girsl school ", "lalmatia D block","dh", 0127081)
+
+
+
+CREATE TABLE registration
+(
+    name varchar(30),
+    email varchar(30),
+    phone int,
+    nid int,
+    slot int ,
+    password varchar(30),
+    PRIMARY KEY (nid)
+  
+   )

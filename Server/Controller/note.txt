@@ -1,0 +1,15 @@
+ res.status(200).send 
+                        (
+                            {
+                                success : true,
+                                message : "successfully login",
+                                status : 200,
+                                data:
+                                {
+                                    password : password,
+                                    pass : req.body.password
+                                }
+                               
+
+                            }
+                        )
